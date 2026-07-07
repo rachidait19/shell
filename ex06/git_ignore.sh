@@ -1,1 +1,1 @@
- git status --ignored |grep '!!'| cut -c 4- 
+ git status --ignored -s  | grep '!!'| cut -c 4- 
